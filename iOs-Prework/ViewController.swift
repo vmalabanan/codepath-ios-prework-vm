@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func ResetButtonClicked(_ sender: Any) {
-        TextLabel.text = "Hello."
+        TextLabel.text = "Hello from Vanessa."
         TextLabel.textColor = UIColor.white
         Background.backgroundColor = UIColor.systemOrange
         TextBackground.backgroundColor = UIColor.systemOrange

@@ -9,7 +9,7 @@ This app features a friendly welcome message along with four buttons that allow 
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/B0SDkyadnx.gif" width=200><br>
+<img src="https://recordit.co/mhdWauUkn6" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
