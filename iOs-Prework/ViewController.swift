@@ -13,7 +13,36 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBOutlet weak var TextLabel: UILabel!
+    
+    @IBOutlet var Background: UIView!
+    
+    @IBOutlet weak var TextBackground: UIView!
+    
+    @IBAction func ChangeTextButtonClicked(_ sender: Any) {
+        TextLabel.text = "Howdy!"
+    }
+    
+    @IBAction func ChangeTextColorButtonClicked(_ sender: Any) {
+        TextLabel.textColor = UIColor.brown
+    }
+    
+    @IBAction func ChangeBGColorButtonClicked(_ sender: Any) {
+        Background.backgroundColor = UIColor.systemMint
+        TextBackground.backgroundColor = UIColor.systemMint
+    }
+    
+    
+    @IBAction func ResetButtonClicked(_ sender: Any) {
+        TextLabel.text = "Hello."
+        TextLabel.textColor = UIColor.white
+        Background.backgroundColor = UIColor.systemOrange
+        TextBackground.backgroundColor = UIColor.systemOrange
+    }
+    
 
-
+    
+    
 }
 
