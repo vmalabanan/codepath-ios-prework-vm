@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var TextBackground: UIView!
     
     @IBAction func ChangeTextButtonClicked(_ sender: Any) {
-        TextLabel.text = "Howdy!"
+        TextLabel.text = "Goodbye 👋🏼!"
     }
     
     @IBAction func ChangeTextColorButtonClicked(_ sender: Any) {

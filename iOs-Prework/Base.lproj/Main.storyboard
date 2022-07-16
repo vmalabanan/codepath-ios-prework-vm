@@ -20,10 +20,10 @@
                                 <rect key="frame" x="65" y="172" width="284" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-0n-ngy">
-                                        <rect key="frame" x="8" y="8" width="268" height="165"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello from Vanessa." textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JL-0n-ngy">
+                                        <rect key="frame" x="-26" y="0.0" width="337" height="173"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -39,7 +39,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ChangeTextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBl-LT-qQY"/>
+                                    <action selector="ChangeTextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbA-HB-XUS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83U-Aq-ziW">
@@ -86,7 +86,6 @@
                         <outlet property="Background" destination="8bC-Xf-vdC" id="8Ey-DP-x8Z"/>
                         <outlet property="TextBackground" destination="uBx-Cm-W3m" id="4ba-zd-Jpd"/>
                         <outlet property="TextLabel" destination="2JL-0n-ngy" id="K9M-8S-7JC"/>
-                        <outletCollection property="test" destination="8bC-Xf-vdC" id="rXY-fu-rq7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
