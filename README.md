@@ -8,7 +8,6 @@ This app features a friendly welcome message along with four buttons that allow 
 - Reset to original settings
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="http://g.recordit.co/B0SDkyadnx.gif" width=200><br>
 
